@@ -2,7 +2,8 @@
 Thsese steps shows the installation of terraform,serverspec and verifying the tests.
 
 #  Installation of terraform 
-Download the terraform 0.7 from the terraform website :[Terraform Download link]
+Download the terraform 0.7 from the terraform website
+[Terraform]( https://releases.hashicorp.com/terraform/0.7.13/terraform_0.7.13_linux_amd64.zip)
 
 ```bash
 sudo mkdir -p /opt/terraform
@@ -22,7 +23,7 @@ First, let's create a new directory for our config:
 $ mkdir ServerSpecTest
 ```
 
-And cd into that directory:
+Create ServerSpecTest folder:
 
 ```bash
 $ cd ServerSpecTest
@@ -121,4 +122,4 @@ kitchen verify
 ```
 
 Your tests will be verified at last.
-[Terraform Download link]:https://releases.hashicorp.com/terraform/0.7.13/terraform_0.7.13_linux_amd64.zip
+
