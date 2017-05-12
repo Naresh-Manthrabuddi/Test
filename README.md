@@ -115,7 +115,7 @@ export KITCHEN_PORT=22
 export KITCHEN_SSH_KEY=keyname.pem
 ```
 
-Run the following commands
+Run the following commands to create the infrastrucre with terraform and run the tests.
 ```bash
 kitchen converge
 kitchen verify
